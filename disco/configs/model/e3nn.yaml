@@ -1,7 +1,7 @@
 _target_: disco.models.TensorProductScoreModel
 in_node_features: ${dataset.n_node_features}
-in_edge_features: 4
-time_emb_dim: 32
+in_edge_features: "4"
+time_emb_dim: "32"
 diffusion_steps: ${diffusion.noise_schedule.n_timesteps}
 sh_lmax: 2
 ns: 32
